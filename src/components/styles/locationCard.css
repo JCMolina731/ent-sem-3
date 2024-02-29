@@ -1,0 +1,36 @@
+.location{
+    background-color: #072226;
+    padding: 20px;
+    margin: 35px 0;
+    border-radius: 15px;
+    transition: transform .25s;
+    cursor: pointer;
+}
+.location:hover{
+    transform: scale(1.1);
+    box-shadow: -5px -5px 5px black;
+    transition: transform .25s;
+}
+.location_title{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #7ab823;
+}
+
+.location_list{
+    display: flex;
+    flex-direction: wrap;
+    gap: 5px;
+}
+.location_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+
+}
+.location_item span{
+    color: white;
+    gap: 5px;
+    font-weight: 600;
+}
